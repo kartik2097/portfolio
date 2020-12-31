@@ -166,7 +166,8 @@
     }
 }
 
-@media(max-width : 500px){
+
+@media only screen and (max-width: 500px) {
     .skill_header{
         height: 100%;
     }
@@ -218,7 +219,7 @@
 
 }
 
-@media(max-width : 414px){
+@media only screen and (max-width: 425px) {
     .skill_header{
         height: 120%;
     }
