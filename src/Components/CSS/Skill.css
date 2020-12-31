@@ -166,12 +166,12 @@
     }
 }
 
-@media(max-width : 542px){
+@media(max-width : 500px){
     .skill_header{
         height: 100%;
     }
     .skill_title{
-        top: 3rem;
+        top: 2rem;
     }
     .skill_title > h2{
         font-size: 3rem;

@@ -133,7 +133,7 @@
 }
 
 
-@media(max-width : 542px){
+@media(max-width : 500px){
     .contact_section{
         position: absolute;
         width: 100%;
@@ -169,10 +169,10 @@
         cursor: pointer;
     }
     .faicon{
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     .Fa{
-        margin: 0px 6px;
+        margin: 0px 5px;
     }
     .map{
         padding: 10px;
