@@ -172,10 +172,10 @@
         height: 100%;
     }
     .skill_title{
-        top: 2rem;
+        top: 1rem;
     }
     .skill_title > h2{
-        font-size: 3rem;
+        font-size:3.3rem;
     }
     .skill_title > div{
         position: absolute;
@@ -184,15 +184,11 @@
         transform: translate(-50% -50%);
     }
     .skill_title> div >h2{
-        text-transform: capitalize;
         font-size: 2rem;
-        font-weight: 800;
-        letter-spacing: 2px;
-        color: #37c6f1;
     }
     .skill_para{
-        font-size: 12px;
-        padding-bottom: 0.2rem;
+        font-size: 16px;
+        padding-bottom: 1rem;
         margin-top: 2.5rem;
     }
 

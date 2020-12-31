@@ -140,7 +140,7 @@
         height: 100%;
     }
     .contact_title{
-        top: 8  rem;
+        top: 10rem;
     }
     .contact_title > h2{
         font-size: 3.3rem;
@@ -154,7 +154,7 @@
     }
     .cont{
         padding: 0px;
-        margin-top: 10rem;
+        margin-top: 14rem;
     }
     .contact_btn{
         font-size: 16px;
