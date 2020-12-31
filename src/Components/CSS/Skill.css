@@ -165,6 +165,59 @@
         padding-bottom: 2rem;
     }
 }
+
+@media(max-width : 542px){
+    .skill_header{
+        height: 100%;
+    }
+    .skill_title{
+        top: 3rem;
+    }
+    .skill_title > h2{
+        font-size: 3rem;
+    }
+    .skill_title > div{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        transform: translate(-50% -50%);
+    }
+    .skill_title> div >h2{
+        text-transform: capitalize;
+        font-size: 2rem;
+        font-weight: 800;
+        letter-spacing: 2px;
+        color: #37c6f1;
+    }
+    .skill_para{
+        font-size: 12px;
+        padding-bottom: 0.2rem;
+        margin-top: 2.5rem;
+    }
+
+    .item{
+        /* padding: 0.1rem 0rem; */
+        margin-left: 0rem;
+        overflow: hidden;
+    }
+    .item-text{
+        font-size: 0.8rem;
+    }
+    .progress{
+        margin: 0.3rem 0;
+        border-radius: 10px;
+        height: 10px;
+        width: 100%;
+        background-color: #1B1B1B;
+        overflow: hidden;
+    }
+    .r-3{
+        margin-top: -20px;
+        padding-bottom: 10px;
+    }
+
+}
+
 @media(max-width : 414px){
     .skill_header{
         height: 120%;

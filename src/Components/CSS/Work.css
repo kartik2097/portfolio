@@ -104,6 +104,32 @@
         font-size: 2rem;
     }
 }
+
+@media(max-width : 542px){
+    .work_section{
+        height: 100%;
+    }
+    .work{
+        margin-top: 10rem;
+    }
+    .work_title{
+        top: 7rem;
+    }
+    .work_section{
+        height: 170%;
+    }
+    .work_title > h2{
+        font-size: 3rem;
+    }
+    .work_title > div{
+        top: 22%;
+        left: 10%;
+    }
+    .work_title> div >h2{
+        font-size: 2rem;
+    }
+}
+
 @media(max-width : 414px){
     .work_section{
         height: 120%;
