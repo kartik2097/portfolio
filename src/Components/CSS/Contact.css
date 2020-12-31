@@ -140,14 +140,14 @@
         height: 100%;
     }
     .contact_title{
-        top: 10rem;
+        top: 8rem;
     }
     .contact_title > h2{
-        font-size: 3.3rem;
+        font-size: 3rem;
     }
     .contact_title > div{
         top: 22%;
-        left: 12%;
+        left: 10%;
     }
     .contact_title> div >h2{
         font-size: 2rem;
@@ -180,8 +180,8 @@
         height: 250px !important;
     }
     .contact_para{
-        margin-top: 1.4rem;
-        padding: 3px 0px;
+        margin-top: 1rem;
+        padding: 3px 0px 2px 0px;
         color: azure;
     }
 }
