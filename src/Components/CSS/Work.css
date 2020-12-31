@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.work_section{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 65px;
+    top: -4.05rem;
+    background-color: #131313;
+    font-family: 'Poppins', sans-serif;
+}
+.work{
+    margin-top: 6rem;
+    border-bottom: 3px outset #2694b6 ;
+    border-right: 3px inset #2694b6;
+    padding-bottom: 16px;
+}
+
+.work_title{
+    position: relative;
+    top: 5rem;
+    font-family: 'Audiowide', cursive;
+}
+.work_title > h2{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.work_title > div{
+    position: absolute;
+    top: 28%;
+    left: 4%;
+    transform: translate(-50% -50%);
+}
+.work_title> div >h2{
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #37c6f1;
+}
+.work_block{
+    justify-items: center;
+    row-gap: 2rem;
+}
+.work_img{
+    position: relative;
+    overflow: hidden;
+}
+.work_img img{
+    height: 200px;
+    width: 100%;
+    border-radius: .5rem;
+}
+.work_link{
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+.work_img:hover .work_link{
+    bottom: 0;
+}
+.work_link_name{
+    color: #131313;
+    font-weight: bold;
+    text-decoration: none;
+}
+.work_link_name:hover{
+    text-decoration: none;
+    color: #131313;
+}
+@media(max-width : 768px){
+    .work{
+        margin-top: 14rem;
+    }
+    .work_title{
+        position: relative;
+        top: 10rem;
+        font-family: 'Audiowide', cursive;
+    }
+    .work_title > h2{
+        font-size: 3rem;
+    }
+    .work_title > div{
+        top: 20%;
+        left: 10%;
+    }
+    .work_title> div >h2{
+        font-size: 2rem;
+    }
+}
+@media(max-width : 414px){
+    .work_section{
+        height: 120%;
+    }
+    .work{
+        margin-top: 7rem;
+    }
+    .work_title{
+        top: 6rem;
+    }
+    .work_section{
+        height: 170%;
+    }
+    .work_title > h2{
+        font-size: 3rem;
+    }
+    .work_title > div{
+        top: 22%;
+        left: 10%;
+    }
+    .work_title> div >h2{
+        font-size: 2rem;
+    }
+}
