@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import bytehub  from "../Images/bytehub.png";
 import website from "../Images/website.png";
 import './CSS/Work.css';
@@ -42,7 +41,7 @@ const Work = () => {
                       </div>
                     </div>
                 </div>  
-                <div className="col-lg-6 col-xs-12 col-sm-12 col-md-6 pt-3 ">
+                {/* <div className="col-lg-6 col-xs-12 col-sm-12 col-md-6 pt-3 ">
                 <div className="work_block">
                       <div className="work_img">
                       <img src={"https://picsum.photos/200/300"} alt="workImg"/>
@@ -51,8 +50,8 @@ const Work = () => {
                         </div>
                       </div>
                     </div>
-                </div>
-                <div className="col-lg-6 col-xs-12 col-sm-12 col-md-6 pt-3 ">
+                </div> */}
+                {/* <div className="col-lg-6 col-xs-12 col-sm-12 col-md-6 pt-3 ">
                 <div className="work_block">
                       <div className="work_img">
                       <img src={"https://picsum.photos/200/300"} alt="workImg"/>
@@ -61,7 +60,7 @@ const Work = () => {
                         </div>
                       </div>
                     </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

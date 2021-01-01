@@ -44,7 +44,7 @@ const Skill = () => {
                   <p>
                     The main area of my expertise is front end development
                     (client side of the web).<br/>
-                    HTML, CSS, JS (TypeScript), building small and medium web
+                    HTML, CSS, JS, building small and medium web
                     apps with React, custom plugins, features, animations,
                     and coding interactive layouts.
                     I have also full-stack developer experience with Node.js and MongoDB.

@@ -18,7 +18,6 @@ const Home = () => {
                     <h2 className="my_designation">
                       I am Web Devloper.
                     </h2>
-                    {/* <button className="hirebtn">Hire Me</button> */}
                     <a class="mailto" href="mailto:kartikgautam677@gmail.com" className="hirebtn">Hire Me</a>
                    
                 </div>

@@ -15,7 +15,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .work{
-    margin-top: 6rem;
+    margin-top: 10rem;
     border-bottom: 3px outset #2694b6 ;
     border-right: 3px inset #2694b6;
     padding-bottom: 16px;
@@ -106,9 +106,9 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .work_section{
+    /* .work_section{
         height: 125%;
-    }
+    } */
     .work{
         margin-top: 10rem;
     }
@@ -128,18 +128,18 @@
 }
 
 @media only screen and (max-width: 425px) {
-    .work_section{
+    /* .work_section{
         height: 120%;
-    }
+    } */
     .work{
-        margin-top: 7rem;
+        margin-top: 10rem;
     }
     .work_title{
         top: 6rem;
     }
-    .work_section{
+    /* .work_section{
         height: 170%;
-    }
+    } */
     .work_title > h2{
         font-size: 3rem;
     }
@@ -152,11 +152,11 @@
     }
 }
 @media only screen and (max-width: 375px) {
-    .work_section{
+    /* .work_section{
         height: 120%;
-    }
+    } */
     .work{
-        margin-top: 7rem;
+        margin-top: 10rem;
     }
     .work_title{
         top: 6rem;
@@ -177,11 +177,11 @@
 
 }
 @media only screen and (max-width: 320px) {
-    .work_section{
+    /* .work_section{
         height: 120%;
-    }
+    } */
     .work{
-        margin-top: 7rem;
+        margin-top: 10rem;
     }
     .work_title{
         top: 6rem;
